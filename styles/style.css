@@ -32,13 +32,18 @@ body{
 
 .search-buttons{
 	display: inline-block;
-	background-color: #f1f1f1;
-	border: none;
-	color: #222;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	color: #757575;
 	font-size: 13px;
 	font-weight: bold;
 	margin: 11px 4px;
 	padding: 0 16px;
 	text-align: center;
 	height: 36px;
+}
+
+.search-buttons:hover{
+	border: 1px solid #CCCCCC;
+	color: #222;
 }
