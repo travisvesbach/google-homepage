@@ -1,0 +1,44 @@
+/* CSS for google homepage project */
+
+body{
+	font-family: arial, sans-serif;
+}
+.center-content{
+    text-align: -webkit-center;
+    margin-top: 198px;
+}
+
+.google-logo{
+	display: block;
+	width: 272px;
+	height: 92px;
+}
+
+.microphone{
+	width: 14px;
+	position: relative;
+	right: 40px;
+	top: 5px;
+}
+
+.search{
+    width: 600px;
+    height: 40px;
+    margin: 30px auto;
+    border:	solid 1px #d2d2d2;
+    box-shadow: 1px 2px 2px #d2d2d2;
+    outline: none;
+}
+
+.search-buttons{
+	display: inline-block;
+	background-color: #f1f1f1;
+	border: none;
+	color: #222;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	padding: 0 16px;
+	text-align: center;
+	height: 36px;
+}
