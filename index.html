@@ -5,14 +5,33 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-	<div class="center-content">
-		<img src="images/google_logo.png" alt="Google logo" class="google-logo"/>
+	<div id="header">
+		<ul>
+			<li><a href="https://mail.google.com/mail/?tab=wm" class="header-text-links">Gmail</a></li>
+			<li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=8g44Wc2GN8vR0gL-kr_IDQ&ved=0EKouCBgoAQ" class="header-text-links">Images</a></li>
+			<li><a href="https://www.google.com/intl/en/options/"><img src="images/block.png"/ id="block-image"></a></li>
+			<li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/webhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwi63Ji-hKrUAhUs54MKHTpoDx0QPAgD"><input type="submit" value="Sign in" id="sign-in"></a></li>
+		</ul>
+	</div>
+	<div id="center-content">
+		<img src="images/google_logo.png" alt="Google logo" id="google-logo"/>
 		<input type="text" class="search">
-		<input type="image" src="images/microphone.png" class="microphone"/>
+		<input type="image" src="images/microphone.png" id="microphone"/>
 		<br/>
 		<input type="submit" value="Google Search" class="search-buttons"/>
 		<input type="submit" value="I'm Feeling Lucky" class="search-buttons"/>
-
+	</div>
+	<div id="footer">
+		<span id="footer-left">
+			<a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+			<a href="https://www.google.com/services/?fg=1">Business</a>
+			<a href="https://www.google.com/intl/en/about.html?fg=1">About</a>
+		</span>
+		<span id="footer-right">
+			<a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
+			<a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
+			<a href="https://www.google.com/preferences?hl=en">Settings</a>
+		</span>
 	</div>
 </body>
 </html>
